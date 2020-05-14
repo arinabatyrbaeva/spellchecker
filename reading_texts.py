@@ -1,3 +1,5 @@
+import spellchecker1
+
 def reading_dictionary_file(dictionaryFilename):
     dictWords = []
     with open(dictionaryFilename, "r", encoding='utf-8') as inputFile:
